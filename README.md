@@ -1,1 +1,1 @@
-https://DariaIkon.github.io/rsschool-cv/cv
+https://dariaikon.github.io/rsschool-cv/
