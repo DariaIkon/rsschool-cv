@@ -1,1 +1,0 @@
-https://DariaIkon.github.io/rsschool-cv/cv
