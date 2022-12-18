@@ -1,15 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
-</head>
-<body>
-    <header></header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Resume</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Это элемент хэдера</li>
+          <li>Это элемент хэдера</li>
+          <li>Это элемент хэдера</li>
+          <li>Это элемент хэдера</li>
+          <li>Это элемент хэдера</li>
+        </ul>
+      </nav>
+    </header>
     <main></main>
+
+    <!--sidebar section-->
+    <aside class="sidebar__section">
+      <img src="img/avatar.png" alt="my photo" />
+
+      <!--tech skills section-->
+      <div class="tech-skills__section">
+        <h3 class="sidebar__title">Tech Skills</h3>
+        <ul class="tech-skills__list">
+          <li class="skills__item">
+            <span class="skills__item--text">HTML5</span>
+          </li>
+          <li class="skills__item">
+            <span class="skills__item--text">CSS3, SASS</span>
+          </li>
+          <li class="skills__item">
+            <span class="skills__item--text">GIT, WebPack</span>
+          </li>
+          <li class="skills__item">
+            <span class="skills__item--text">JavaScript</span>
+          </li>
+          <li class="skills__item">
+            <span class="skills__item--text">React.js, Redux</span>
+          </li>
+          <li class="skills__item">
+            <span class="skills__item--text">Node.js</span>
+          </li>
+        </ul>
+      </div>
+      <!--soft skills section-->
+      <div class="soft-skills__section">
+        <h3 class="sidebar__title">Soft Skills</h3>
+        <ul class="soft-skills__list">
+          <li class="skills__item">
+            <span class="skills__item--text">Scrum</span>
+          </li>
+          <li class="skills__item">
+            <span class="skills__item--text">Agile</span>
+          </li>
+          <li class="skills__item">
+            <span class="skills__item--text">GTD</span>
+          </li>
+          <li class="skills__item">
+            <span class="skills__item--text">Teamwork</span>
+          </li>
+        </ul>
+      </div>
+
+      <!--contacts section-->
+      <div class="contacts__section">
+        <h3 class="sidebar__title">Contacts</h3>
+        <div>
+          <span class="contact__type">C:</span>
+          <a class="contact__link" href="tel:+79657074484">+7-965-707-4484</a>
+        </div>
+        <div>
+          <span class="contact__type">E:</span>
+          <a class="contact__link" href="mailto:ikonnikova.daria@gmail.com"
+            >ikonnikova.daria@gmail.com</a
+          >
+        </div>
+      </div>
+    </aside>
     <footer></footer>
-</body>
+  </body>
 </html>
