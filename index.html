@@ -8,81 +8,171 @@
     <title>Resume</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>Это элемент хэдера</li>
-          <li>Это элемент хэдера</li>
-          <li>Это элемент хэдера</li>
-          <li>Это элемент хэдера</li>
-          <li>Это элемент хэдера</li>
-        </ul>
-      </nav>
-    </header>
-    <main></main>
-
-    <!--sidebar section-->
-    <aside class="sidebar__section">
-      <img src="img/avatar.png" alt="my photo" class="sidebar__img" />
-
-      <!--tech skills section-->
-      <div class="tech-skills__section">
-        <h3 class="sidebar__title">Tech Skills</h3>
-        <ul class="tech-skills__list">
-          <li class="skills__item">
-            <span class="skills__item--text">HTML5</span>
-          </li>
-          <li class="skills__item">
-            <span class="skills__item--text">CSS3, SASS</span>
-          </li>
-          <li class="skills__item">
-            <span class="skills__item--text">GIT, WebPack</span>
-          </li>
-          <li class="skills__item">
-            <span class="skills__item--text">JavaScript</span>
-          </li>
-          <li class="skills__item">
-            <span class="skills__item--text">React.js, Redux</span>
-          </li>
-          <li class="skills__item">
-            <span class="skills__item--text">Node.js</span>
-          </li>
-        </ul>
-      </div>
-      <!--soft skills section-->
-      <div class="soft-skills__section">
-        <h3 class="sidebar__title">Soft Skills</h3>
-        <ul class="soft-skills__list">
-          <li class="skills__item">
-            <span class="skills__item--text">Scrum</span>
-          </li>
-          <li class="skills__item">
-            <span class="skills__item--text">Agile</span>
-          </li>
-          <li class="skills__item">
-            <span class="skills__item--text">GTD</span>
-          </li>
-          <li class="skills__item">
-            <span class="skills__item--text">Teamwork</span>
-          </li>
-        </ul>
-      </div>
-
-      <!--contacts section-->
-      <div class="contacts__section">
-        <h3 class="sidebar__title">Contacts</h3>
-        <div>
-          <span class="contact__type">C:</span>
-          <a class="contact__link" href="tel:+79657074484">+7-965-707-4484</a>
+    <div class="main">
+      <main class="main__section">
+        <!--about me section-->
+        <div class="about__section">
+          <h2 class="about__profession">Full Stack Developer</h2>
+          <h1 class="about__name">Daria Ikonnikova</h1>
+          <h3 class="content__title">About Me</h3>
+          <p class="about__description">
+            Two years ago I decided to change my profession. To start my journey
+            in IT, I chose front-end development courses at the on-line school
+            of "GOIT". I studied markup, Java Script, React-js, Node-js. It was
+            a deep dive in every direction. I am interested in web development
+            because this profession provides opportunities for professional
+            growth, meeting interesting people and working remotely. I did an
+            internship at a startup as a react developer, and also made a
+            website to order. Now I am doing an internship at another startup,
+            where I consolidate my knowledge and learn how to work in a team. I
+            like to improve my skills, in my free time I solve "Codewars"
+            problems or watch YouTube videos about new development
+            opportunities.
+          </p>
         </div>
-        <div>
-          <span class="contact__type">E:</span>
-          <a class="contact__link" href="mailto:ikonnikova.daria@gmail.com"
-            >ikonnikova.daria@gmail.com</a
-          >
+        <!--my projects section-->
+        <div class="project__section">
+          <h3 class="content__title">Projects</h3>
+          <ol class="project__list">
+            <li class="project__item">
+              <span class="project__text">
+                <a href="https://deepskills.ru/" class="project__link"
+                  >https://deepskills.ru/</a
+                >
+                .........
+                <span class="project__bracket">[</span> REACT, JS, SASS, HTML5
+                <span class="project__bracket">]</span>
+              </span>
+            </li>
+          </ol>
         </div>
-      </div>
-    </aside>
-    <footer></footer>
+
+        <!--my education section-->
+        <div class="education__section">
+          <h3 class="content__title">Education</h3>
+          <ul class="education__list">
+            <li class="education__item">
+              <h4 class="education">GOIT online courses</h4>
+              <h4 class="education__position">Fullstack Developer</h4>
+              <p class="education__period">
+                November 2020 - December 2022
+                <span class="education__divider">|</span> Remotely
+              </p>
+            </li>
+            <li class="education__item">
+              <h4 class="education">RS Schools Course</h4>
+              <h4 class="education__position">
+                «JavaScript / Front-end. Stage 0»
+              </h4>
+              <p class="education__period">
+                In progress
+                <span class="education__divider">|</span> Remotely
+              </p>
+            </li>
+            <li class="education__item">
+              <h4 class="education">Skyeng School - English</h4>
+              <h4 class="education__position">
+                Pre-Intermediate / Intermediate
+              </h4>
+              <p class="education__period">
+                In progress
+                <span class="education__divider">|</span> Remotely
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <!--my code section-->
+        <div class="code__section">
+          <h3 class="content__title">Code</h3>
+          <img src="./img/code.png" alt="code" />
+        </div>
+      </main>
+
+      <!--sidebar section-->
+      <aside class="sidebar__section">
+        <img src="img/avatar.png" alt="my photo" class="sidebar__img" />
+
+        <!--tech skills section-->
+        <div class="tech-skills__section">
+          <h3 class="sidebar__title">Tech Skills</h3>
+          <ul class="tech-skills__list">
+            <li class="skills__item">
+              <span class="skills__text">HTML5</span>
+            </li>
+            <li class="skills__item">
+              <span class="skills__text">CSS3, SASS</span>
+            </li>
+            <li class="skills__item">
+              <span class="skills__text">GIT, WebPack</span>
+            </li>
+            <li class="skills__item">
+              <span class="skills__text">VS Code, Figma</span>
+            </li>
+            <li class="skills__item">
+              <span class="skills__text">JavaScript</span>
+            </li>
+            <li class="skills__item">
+              <span class="skills__text">React.js, Redux</span>
+            </li>
+            <li class="skills__item">
+              <span class="skills__text">Node.js</span>
+            </li>
+          </ul>
+        </div>
+        <!--soft skills section-->
+        <div class="soft-skills__section">
+          <h3 class="sidebar__title">Soft Skills</h3>
+          <ul class="soft-skills__list">
+            <li class="skills__item">
+              <span class="skills__text">Scrum</span>
+            </li>
+            <li class="skills__item">
+              <span class="skills__text">Agile</span>
+            </li>
+            <li class="skills__item">
+              <span class="skills__text">GTD</span>
+            </li>
+            <li class="skills__item">
+              <span class="skills__text">Teamwork</span>
+            </li>
+          </ul>
+        </div>
+
+        <!--contacts section-->
+        <div class="contacts__section">
+          <h3 class="sidebar__title">Contacts</h3>
+          <div>
+            <span class="contact__type">C:</span>
+            <a class="contact__link" href="tel:+79657074484">+7-965-707-4484</a>
+          </div>
+          <div>
+            <span class="contact__type">E:</span>
+            <a class="contact__link" href="mailto:ikonnikova.daria@gmail.com"
+              >ikonnikova.daria@gmail.com</a
+            >
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!--footer section-->
+    <footer class="footer__section">
+      <a
+        href="https://github.com/DariaIkon"
+        target="_blank"
+        class="footer__link"
+      >
+        <img src="./img/github.svg" alt="logo Github" class="footer__logo" />
+      </a>
+      <span class="footer__date">2022</span>
+      <a href="https://rs.school/js/" target="_blank" class="footer__link">
+        <img
+          src="./img/rs_school_js.svg"
+          alt="logo RS-School"
+          class="footer__logo"
+        />
+      </a>
+    </footer>
   </body>
 </html>

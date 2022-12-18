@@ -1,5 +1,4 @@
 # Daria Ikonnikova 
-!(/img/Avatar.png)
 ============================================================
 ### Junior Frontend Developer
 ============================================================
@@ -60,5 +59,5 @@ function anagrams(word, words) {
 ============================================================
 ### Languages:
 
-* English Pre-Intermediate/Intermediate I'm studing english in online school (https://skyeng.ru)
+* English Pre-Intermediate/Intermediate I'm studing english in online school [Skyeng](https://skyeng.ru)
 * Russian - Native
